@@ -6,7 +6,7 @@ from flask import Flask, request, jsonify
 app = Flask(__name__)
 
 # OpenAI API Key (Make sure to replace with your actual API key)
-openai.api_key = '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'
+openai.api_key = ''
 
 # Hugging Face Summarization, Translation, and Sentiment Analysis pipelines
 summarizer = pipeline("summarization", model="facebook/bart-large-cnn")
